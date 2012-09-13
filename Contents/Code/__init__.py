@@ -6,7 +6,7 @@ PMS_URL = 'http://%s/library/sections/'
 ####################################################################################################
 def Start():
 
-	Plugin.AddPrefixHandler('/applications/libraryupdater', MainMenu, NAME, ICON, ART)
+	Plugin.AddPrefixHandler('/video/libraryupdater', MainMenu, NAME, ICON, ART)
 	Plugin.AddViewGroup('List', viewMode='List', mediaType='items')
 
 	MediaContainer.art = R(ART)
