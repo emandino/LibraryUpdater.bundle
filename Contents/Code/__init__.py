@@ -34,7 +34,7 @@ def MainMenu():
 
 			all_keys.append(key)
 	except:
-		return ObjectContainer(header="Couldn't find PMS instance", message="Add or update the address of PMS in the plugin's preferences")
+		pass
 
 	if len(all_keys) > 0:
 		oc.add(DirectoryObject(key=Callback(UpdateType, title='All sections', key=all_keys), title='Update all sections'))

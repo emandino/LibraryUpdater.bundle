@@ -10,7 +10,5 @@
 	<string>2</string>
 	<key>PlexPluginCodePolicy</key>
 	<string>Elevated</string>
-	<key>PlexPluginMode</key>
-	<string>AlwaysOn</string>
 </dict>
 </plist>
